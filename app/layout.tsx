@@ -3,7 +3,7 @@ import "./globals.css";
 import { site } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: `${site.name} | ${site.role}`,
+  title: site.name,
   description: site.focus,
   metadataBase: new URL("https://example.com"),
   icons: {
@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: `${site.name} | ${site.role}`,
+    title: site.name,
     description: site.focus,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${site.name} | ${site.role}`,
+    title: site.name,
     description: site.focus,
   },
 };
