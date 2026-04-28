@@ -646,10 +646,16 @@ p {
     min-height: 92vh;
   }
 
+  .hero-content {
+    order: 2;
+  }
+
   .hero-portrait {
+    order: 1;
     justify-self: start;
     width: min(35.7vw, 14rem);
     min-width: 11.5rem;
+    margin-bottom: clamp(0.35rem, 2vw, 0.8rem);
     transform: none;
   }
 
